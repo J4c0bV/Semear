@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/ascachetti/Documents/testeJacob/Semear/ros2_ws/src/odom_pkg/rviz":
+  No such file or directory.
+
+[0m

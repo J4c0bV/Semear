@@ -1,0 +1,30 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/build/odom_pkg
+-- Install configuration: ""
+-- Up-to-date: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/odom_pkg//launch
+-- Up-to-date: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/odom_pkg//launch/launch.launch.py
+-- Up-to-date: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/odom_pkg//urdf
+-- Up-to-date: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/odom_pkg//urdf/diff_bot.urdf
+-- Up-to-date: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/odom_pkg//scripts
+-- Up-to-date: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/odom_pkg//scripts/just_move.py
+-- Up-to-date: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/odom_pkg//scripts/hw_interface.py
+-- Installing: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/lib/odom_pkg/hw_interface.py
+-- Installing: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/lib/odom_pkg/just_move.py
+-- Installing: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/ament_index/resource_index/package_run_dependencies/odom_pkg
+-- Installing: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/ament_index/resource_index/parent_prefix_path/odom_pkg
+-- Installing: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/odom_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/odom_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/odom_pkg/environment/path.sh
+-- Installing: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/odom_pkg/environment/path.dsv
+-- Installing: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/odom_pkg/local_setup.bash
+-- Installing: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/odom_pkg/local_setup.sh
+-- Installing: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/odom_pkg/local_setup.zsh
+-- Installing: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/odom_pkg/local_setup.dsv
+-- Up-to-date: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/odom_pkg/package.dsv
+-- Installing: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/ament_index/resource_index/packages/odom_pkg
+-- Installing: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/odom_pkg/cmake/odom_pkgConfig.cmake
+-- Installing: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/odom_pkg/cmake/odom_pkgConfig-version.cmake
+-- Installing: /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/odom_pkg/package.xml
