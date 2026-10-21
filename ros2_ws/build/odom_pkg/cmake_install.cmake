@@ -47,6 +47,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/home/ascachetti/Documents/testeJacob/Semear/ros2_ws/src/odom_pkg/launch"
     "/home/ascachetti/Documents/testeJacob/Semear/ros2_ws/src/odom_pkg/urdf"
     "/home/ascachetti/Documents/testeJacob/Semear/ros2_ws/src/odom_pkg/scripts"
+    "/home/ascachetti/Documents/testeJacob/Semear/ros2_ws/src/odom_pkg/worlds"
     )
 endif()
 

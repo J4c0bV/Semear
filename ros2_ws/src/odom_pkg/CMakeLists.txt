@@ -27,6 +27,7 @@ install(DIRECTORY
   launch
   urdf
   scripts
+  worlds
   DESTINATION share/${PROJECT_NAME}/
 )
 

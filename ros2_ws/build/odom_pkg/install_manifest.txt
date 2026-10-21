@@ -2,6 +2,7 @@
 /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/odom_pkg//urdf/diff_bot.urdf
 /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/odom_pkg//scripts/just_move.py
 /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/odom_pkg//scripts/hw_interface.py
+/home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/odom_pkg//worlds/pista_robocar.sfd
 /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/lib/odom_pkg/hw_interface.py
 /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/lib/odom_pkg/just_move.py
 /home/ascachetti/Documents/testeJacob/Semear/ros2_ws/install/odom_pkg/share/ament_index/resource_index/package_run_dependencies/odom_pkg

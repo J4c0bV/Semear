@@ -34,14 +34,14 @@ class JustMove(Node):
         self.yaw_vel = 0.3        
 
         # --- Ganhos do PID ---
-        self.kp = 2     
+        self.kp = 110     
         self.ki = 0.15   
         self.kd = 0.1   
         
         # --- Variáveis do PID ---
         self.integral_error = 0.0
         self.last_error = 0.0
-        self.max_integral = 0.5 
+        self.max_integral = 2 
 
         self.movement_thread = threading.Thread(target=self.movement_loop)
         self.movement_thread.daemon = True
@@ -76,9 +76,12 @@ class JustMove(Node):
 
         target_angle = self.ideal_yaw
 
+        # self.last_error = self.normalize_angle(target_angle - self.current_yaw)
+
         last_time = self.get_clock().now().nanoseconds / 1e9
 
         while rclpy.ok():
+
             current_time = self.get_clock().now().nanoseconds / 1e9
             dt = current_time - last_time
 
@@ -96,9 +99,9 @@ class JustMove(Node):
             if dist_projected >= target_distance:
                 break
 
-            error = self.normalize_angle(target_angle - self.current_yaw)
+            error = self.normalize_angle(self.current_yaw - target_angle)
 
-            P = self.kp * error
+            P = -self.kp * error
 
             self.integral_error += error * dt
             self.integral_error = max(min(self.integral_error, self.max_integral), -self.max_integral)
@@ -109,7 +112,7 @@ class JustMove(Node):
 
             self.last_error = error
 
-            cmd.angular.z = P + I + D
+            cmd.angular.z = P + I
 
             self.pub.publish(cmd)
             time.sleep(0.02) 
@@ -144,6 +147,48 @@ class JustMove(Node):
             
         self.stop(1.0)
 
+    def move_to_point_x(self, target_x):
+
+        cmd = Twist()
+        cmd.linear.x = self.linear_vel
+        cmd.angular.z = 0.0
+
+        start_x = self.current_x
+
+        while rclpy.ok():
+
+            dist_moved_x = abs(self.current_x - start_x)
+
+            if dist_moved_x >= target_x:
+                break
+
+            self.pub.publish(cmd)
+            time.sleep(0.02)
+
+        cmd.linear.x = 0.0
+        self.pub.publish(cmd)
+
+    def move_to_point_y(self, target_y):
+
+        cmd = Twist()
+        cmd.linear.x = self.linear_vel
+        cmd.angular.z = 0.0
+
+        start_y = self.current_y
+
+        while rclpy.ok():
+
+            dist_moved_y = abs(self.current_y - start_y)
+
+            if dist_moved_y >= target_y:
+                break
+
+            self.pub.publish(cmd)
+            time.sleep(0.02)
+
+        cmd.linear.x = 0.0
+        self.pub.publish(cmd)  
+
     def stop(self, duration):
         cmd = Twist()
         self.pub.publish(cmd)
@@ -158,6 +203,27 @@ class JustMove(Node):
         start_dist = self.x_dist - self.x_desloc
 
         while rclpy.ok():
+
+            # self.move_to_point_x(3)
+            # time.sleep(2)
+
+            # self.move_turn_approx_90()
+
+            # self.move_to_point_y(3)
+            # time.sleep(2)
+
+            # self.move_turn_approx_90()
+
+            # self.move_to_point_x(3)
+            # time.sleep(2)
+
+            # self.move_turn_approx_90()
+
+            # self.move_to_point_y(3)
+            # time.sleep(2)
+
+            # self.move_turn_approx_90()
+
             self.get_logger().info("Primeira reta!")
             self.move_straight(start_dist)
             self.move_turn_approx_90()
