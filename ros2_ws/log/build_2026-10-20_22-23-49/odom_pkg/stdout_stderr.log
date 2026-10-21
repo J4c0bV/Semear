@@ -1,0 +1,43 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/build/odom_pkg
+-- Install configuration: ""
+-- Installing: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/install/odom_pkg/share/odom_pkg//launch
+-- Installing: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/install/odom_pkg/share/odom_pkg//launch/launch.launch.py
+-- Installing: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/install/odom_pkg/share/odom_pkg//urdf
+-- Installing: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/install/odom_pkg/share/odom_pkg//urdf/diff_bot.urdf
+-- Installing: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/install/odom_pkg/share/odom_pkg//scripts
+-- Installing: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/install/odom_pkg/share/odom_pkg//scripts/hw_interface.py
+-- Installing: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/install/odom_pkg/share/odom_pkg//scripts/just_move.py
+-- Installing: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/install/odom_pkg/lib/odom_pkg/hw_interface.py
+-- Installing: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/install/odom_pkg/lib/odom_pkg/just_move.py
+-- Installing: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/install/odom_pkg/share/ament_index/resource_index/package_run_dependencies/odom_pkg
+-- Installing: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/install/odom_pkg/share/ament_index/resource_index/parent_prefix_path/odom_pkg
+-- Installing: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/install/odom_pkg/share/odom_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/install/odom_pkg/share/odom_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/install/odom_pkg/share/odom_pkg/environment/path.sh
+-- Installing: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/install/odom_pkg/share/odom_pkg/environment/path.dsv
+-- Installing: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/install/odom_pkg/share/odom_pkg/local_setup.bash
+-- Installing: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/install/odom_pkg/share/odom_pkg/local_setup.sh
+-- Installing: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/install/odom_pkg/share/odom_pkg/local_setup.zsh
+-- Installing: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/install/odom_pkg/share/odom_pkg/local_setup.dsv
+-- Installing: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/install/odom_pkg/share/odom_pkg/package.dsv
+-- Installing: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/install/odom_pkg/share/ament_index/resource_index/packages/odom_pkg
+-- Installing: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/install/odom_pkg/share/odom_pkg/cmake/odom_pkgConfig.cmake
+-- Installing: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/install/odom_pkg/share/odom_pkg/cmake/odom_pkgConfig-version.cmake
+-- Installing: /home/jacob/Documents/SEMEAR/Semear/ros2_ws/install/odom_pkg/share/odom_pkg/package.xml
